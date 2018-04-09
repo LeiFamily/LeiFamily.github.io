@@ -2,7 +2,7 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Micro
   h3.title {
             color: #F2AE11;
             font-size: 1.3em;
-            margin-bottom: 3em;
+            margin-bottom: 2.5em;
             text-align: center;
             font-weight: 500;
             line-height: 1.1;
@@ -37,5 +37,9 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Micro
 @media (max-width: 320px) {
  		  h3.title span:before, h3.title span:after {  
             width: 0%;
+        }
+
+  h3.title {
+  margin-bottom: 0.4em;
         }
 }
